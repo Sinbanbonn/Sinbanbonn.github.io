@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Privacy Policy - Idle Delivery Man</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@800;900&family=Source+Sans+3:wght@400;600&display=swap">
+<style>
+/* Layout: one readable column, a small delivery-ticket header, plain sections. */
+:root {
+  --bg: #F6F7F4;
+  --surface: #FFFFFF;
+  --fg: #22302B;
+  --muted: #5B6B65;
+  --line: #DCE3DF;
+  --accent: #1F8A70;
+  --font-display: "Nunito", "Arial Rounded MT Bold", system-ui, sans-serif;
+  --font-body: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --bg: #141B19; --surface: #1C2522; --fg: #E6EDEA; --muted: #9FB0A9; --line: #2D3A36; --accent: #5CC9A7; color-scheme: dark; }
+}
+:root[data-theme="dark"] { --bg: #141B19; --surface: #1C2522; --fg: #E6EDEA; --muted: #9FB0A9; --line: #2D3A36; --accent: #5CC9A7; color-scheme: dark; }
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; color-scheme: light dark; }
+body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--font-body); font-size: 17px; line-height: 1.6; }
+.page { max-width: 44rem; margin: 0 auto; padding-block: 48px 64px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 32px; }
+header { display: grid; gap: 10px; padding-bottom: 24px; border-bottom: 2px dashed var(--line); }
+.app { font-family: var(--font-display); font-weight: 900; font-size: 15px; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+h1 { font-family: var(--font-display); font-weight: 900; font-size: clamp(30px, 6vw, 40px); line-height: 1.15; margin: 0; text-wrap: balance; }
+.date { color: var(--muted); margin: 0; }
+.lead { margin: 0; }
+section { display: grid; gap: 8px; }
+h2 { font-family: var(--font-display); font-weight: 800; font-size: 21px; margin: 0; text-wrap: balance; }
+p { margin: 0; }
+ul { margin: 0; padding-left: 1.2em; display: grid; gap: 6px; }
+strong { font-weight: 600; }
+a { color: var(--accent); text-underline-offset: 2px; overflow-wrap: anywhere; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+.contact { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 18px 20px; display: grid; gap: 6px; }
+.email { font-weight: 600; user-select: all; overflow-wrap: anywhere; }
+</style>
+</head>
+<body>
+<main class="page">
+  <header>
+    <div class="app">Idle Delivery Man</div>
+    <h1>Privacy Policy</h1>
+    <p class="date">Effective date: November 8, 2026</p>
+    <p class="lead">This policy explains how the mobile game Idle Delivery Man ("the app", "we", "us") handles information. The app works without accounts and without collecting personal data.</p>
+  </header>
+
+  <section>
+    <h2>Information we do not collect</h2>
+    <ul>
+      <li>You do not need to create an account or sign in.</li>
+      <li>We do not collect your name, email address, phone number, contacts, photos, location or other personal information.</li>
+      <li>We do not sell or share personal data with third parties.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Information stored on your device</h2>
+    <ul>
+      <li><strong>Game progress and settings.</strong> Your progress, in-game currency, upgrades, language and sound settings are saved only on your device.</li>
+      <li><strong>Player name.</strong> The name you enter in the game is stored only on your device. It appears in your profile and in the local leaderboard and is not sent to us.</li>
+      <li><strong>Reminders.</strong> If you allow notifications, the app schedules local reminders on your device. No push token or notification data is sent to us.</li>
+    </ul>
+    <p>You can delete all of this data at any time by deleting the app.</p>
+  </section>
+
+  <section>
+    <h2>Technical data collected by the game engine</h2>
+    <p>The app is built with the Unity engine. Unity may collect limited, anonymous technical information about the device and app performance, such as device model, operating system version and performance statistics, to keep the engine working well. This data does not identify you personally. See <a href="https://unity.com/legal/privacy-policy">Unity's privacy policy</a>.</p>
+  </section>
+
+  <section>
+    <h2>Beta testing through TestFlight</h2>
+    <p>If you test a beta version through Apple TestFlight, Apple may share with us information such as your TestFlight email or name (if you joined by invitation), crash reports, usage statistics and feedback you choose to send. We use this only to fix bugs and improve the app. See <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a>.</p>
+  </section>
+
+  <section>
+    <h2>Future features</h2>
+    <p>The current version contains no real advertising and no real in-app purchases. If we add advertising, purchases or online features, we will update this policy before those features go live and describe what data they use.</p>
+  </section>
+
+  <section>
+    <h2>Children</h2>
+    <p>The app is suitable for a general audience. We do not knowingly collect personal information from children.</p>
+  </section>
+
+  <section>
+    <h2>Changes to this policy</h2>
+    <p>We may update this policy from time to time. The effective date at the top shows when it last changed.</p>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Questions about this policy? Write to us:</p>
+    <p class="email">iosteam2025@gmail.com</p>
+  </section>
+</main>
+</body>
+</html>
